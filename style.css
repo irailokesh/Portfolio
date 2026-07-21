@@ -260,7 +260,16 @@ html[data-theme="light"] .theme-toggle .sun{ display: block; }
 .btn-ghost{ border: 1px solid var(--border); color: var(--text-1); background: var(--surface); }
 .btn-ghost:hover{ border-color: var(--accent); transform: translateY(-2px); }
 .btn-sm{ --btn-pad-y: .55rem; --btn-pad-x: 1.05rem; font-size: .85rem; }
-.btn-icon{ width: 46px; height: 46px; padding: 0; border-radius: var(--radius-full); border: 1px solid var(--border); background: var(--surface); }
+.btn-icon{     width: 48px;
+    height: 48px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    border: 1px solid var(--border);
+    background: var(--surface);
+    transition: all .3s ease;
+    flex-shrink: 0; }
 .btn-icon:hover{ border-color: var(--accent); color: var(--accent); transform: translateY(-2px); }
 
 /* Ripple */
