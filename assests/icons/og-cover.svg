@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#090c13"/>
+      <stop offset="1" stop-color="#12162a"/>
+    </linearGradient>
+    <linearGradient id="txt" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#7c6cf0"/>
+      <stop offset="1" stop-color="#22d3c9"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bg)"/>
+  <text x="80" y="260" font-family="Arial, sans-serif" font-size="64" font-weight="700" fill="#eef1f8">Iraiyanbu Suresh</text>
+  <text x="80" y="330" font-family="'Courier New', monospace" font-size="34" fill="url(#txt)">Java Developer</text>
+  <text x="80" y="400" font-family="Arial, sans-serif" font-size="24" fill="#a7b0c4">Core Java · SQL · OOP · Backend Development</text>
+  <rect x="80" y="450" width="180" height="2" fill="#232b3f"/>
+</svg>
