@@ -1,0 +1,649 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Iraiyanbu Suresh | Java Developer Portfolio</title>
+<meta name="description" content="Iraiyanbu Suresh is an entry-level Java Developer skilled in Core Java, SQL, OOP and backend development, building clean, scalable software solutions.">
+<meta name="keywords" content="Iraiyanbu Suresh, Java Developer, Backend Developer, SQL, OOP, Portfolio, Panimalar Engineering College">
+<meta name="author" content="Iraiyanbu Suresh">
+<meta name="robots" content="index, follow">
+<link rel="canonical" href="https://irailokesh.dev/">
+
+<!-- Open Graph -->
+<meta property="og:type" content="website">
+<meta property="og:title" content="Iraiyanbu Suresh | Java Developer Portfolio">
+<meta property="og:description" content="Entry-level Java Developer skilled in Core Java, SQL, OOP and backend development. Explore projects, experience and certifications.">
+<meta property="og:url" content="https://irailokesh.dev/">
+<meta property="og:image" content="https://irailokesh.dev/assets/icons/og-cover.svg">
+<meta property="og:site_name" content="Iraiyanbu Suresh Portfolio">
+
+<!-- Twitter Card -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Iraiyanbu Suresh | Java Developer Portfolio">
+<meta name="twitter:description" content="Entry-level Java Developer skilled in Core Java, SQL, OOP and backend development.">
+<meta name="twitter:image" content="https://irailokesh.dev/assets/icons/og-cover.svg">
+
+<!-- Favicon -->
+<link rel="icon" type="image/svg+xml" href="assets/icons/favicon.svg">
+<link rel="alternate icon" href="assets/icons/favicon.svg">
+
+<!-- Preconnects -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preconnect" href="https://unpkg.com">
+
+<!-- Styles -->
+<link rel="stylesheet" href="style.css">
+
+<!-- Icons (Remix Icon, referenced by class names throughout) -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.6.0/remixicon.min.css">
+
+<!-- Structured data -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "name": "Iraiyanbu Suresh",
+  "jobTitle": "Java Developer",
+  "url": "https://irailokesh.dev/",
+  "email": "mailto:irailokesh369@gmail.com",
+  "telephone": "+91-9360871931",
+  "address": {
+    "@type": "PostalAddress",
+    "addressLocality": "Chennai",
+    "addressRegion": "Tamil Nadu",
+    "addressCountry": "IN"
+  },
+  "sameAs": [
+    "https://www.linkedin.com/in/irailokesh369",
+    "https://github.com/irailokesh",
+    "https://www.hackerrank.com/profile/irailokesh",
+    "https://leetcode.com/u/irailokesh/"
+  ],
+  "alumniOf": {
+    "@type": "CollegeOrUniversity",
+    "name": "Panimalar Engineering College"
+  }
+}
+</script>
+</head>
+<body>
+
+<a href="#main" class="skip-link">Skip to main content</a>
+
+<!-- Loading screen -->
+<div class="loader" id="loader" aria-hidden="true">
+  <div>
+    <div class="loader-mark"><span class="prompt-sym">&gt;</span> compiling portfolio<span id="loader-dots">...</span></div>
+    <div class="loader-bar"></div>
+  </div>
+</div>
+
+<div class="bg-noise" aria-hidden="true"></div>
+<canvas id="particles" aria-hidden="true"></canvas>
+<div class="scroll-progress" id="scrollProgress"></div>
+
+<!-- Navigation -->
+<header class="navbar" id="navbar">
+  <div class="container nav-inner">
+    <a href="#top" class="logo" aria-label="Iraiyanbu Suresh — home">IS<span class="dot">.</span>dev</a>
+
+    <nav class="nav-links" aria-label="Primary">
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#experience">Experience</a>
+      <a href="#education">Education</a>
+      <a href="#certifications">Certifications</a>
+      <a href="#contact">Contact</a>
+    </nav>
+
+    <div class="nav-actions">
+      <button class="theme-toggle" id="themeToggle" type="button" aria-label="Toggle dark or light theme" aria-pressed="false">
+        <svg class="moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79Z"/></svg>
+        <svg class="sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M4.93 19.07l1.41-1.41M17.66 6.34l1.41-1.41"/></svg>
+      </button>
+      <button class="hamburger" id="hamburger" type="button" aria-label="Toggle menu" aria-expanded="false" aria-controls="mobileMenu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </div>
+
+  <div class="mobile-menu" id="mobileMenu">
+    <ul>
+      <li><a href="#about">About</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#experience">Experience</a></li>
+      <li><a href="#education">Education</a></li>
+      <li><a href="#certifications">Certifications</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </div>
+</header>
+
+<main id="main">
+  <div id="top"></div>
+
+  <!-- ============================= HERO ============================= -->
+  <section class="hero" aria-label="Introduction">
+    <div class="container hero-grid">
+      <div>
+        <p class="hero-kicker"><span class="pulse" aria-hidden="true"></span> Open to Java Developer roles</p>
+        <h1>Iraiyanbu Suresh</h1>
+        <p class="hero-role"><span id="typedRole">Java Developer</span><span class="cursor" aria-hidden="true"></span></p>
+        <p class="lede">Entry-level Java Developer with a strong foundation in Core Java, OOP, SQL and DBMS &mdash; focused on building scalable, efficient backend solutions with clean, maintainable code.</p>
+
+        <div class="hero-ctas">
+          <a class="btn btn-primary" href="assets/resume/Iraiyanbu_Suresh_Resume.pdf" download>
+            <i class="ri-download-2-line" aria-hidden="true"></i> Download Resume
+          </a>
+          <a class="btn btn-ghost" href="https://github.com/irailokesh" target="_blank" rel="noopener noreferrer">
+            <i class="ri-github-fill" aria-hidden="true"></i> View GitHub
+          </a>
+          <a class="btn btn-ghost" href="#contact">
+            <i class="ri-send-plane-line" aria-hidden="true"></i> Hire Me
+          </a>
+        </div>
+
+        <div class="hero-socials" aria-label="Social profiles">
+          <a class="btn-icon" href="https://www.linkedin.com/in/irailokesh369" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn profile"><i class="ri-linkedin-fill" aria-hidden="true"></i></a>
+          <a class="btn-icon" href="https://leetcode.com/u/irailokesh/" target="_blank" rel="noopener noreferrer" aria-label="LeetCode profile"><i class="ri-code-s-slash-fill" aria-hidden="true"></i></a>
+          <a class="btn-icon" href="https://www.hackerrank.com/profile/irailokesh" target="_blank" rel="noopener noreferrer" aria-label="HackerRank profile"><i class="ri-terminal-box-fill" aria-hidden="true"></i></a>
+        </div>
+
+        <div class="hero-stats" aria-label="Key statistics">
+          <div class="stat"><b data-counter data-target="4">0</b><span>Projects Built</span></div>
+          <div class="stat"><b data-counter data-target="8" data-decimal="84">0</b><span>CGPA / 10</span></div>
+          <div class="stat"><b data-counter data-target="4">0</b><span>Certifications</span></div>
+        </div>
+      </div>
+
+      <div class="terminal" role="img" aria-label="Terminal window animating a Java compile sequence introducing Iraiyanbu Suresh">
+        <div class="terminal-bar">
+          <span class="terminal-dot red"></span><span class="terminal-dot yellow"></span><span class="terminal-dot green"></span>
+          <span class="terminal-title">career.java — zsh</span>
+        </div>
+        <div class="terminal-body" id="terminalBody" aria-hidden="true"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================= ABOUT ============================= -->
+  <section id="about" aria-labelledby="about-heading">
+    <div class="container section-inner">
+      <div class="section-head reveal">
+        <p class="eyebrow">// about</p>
+        <h2 id="about-heading">Building reliable software, one clean function at a time</h2>
+      </div>
+
+      <div class="about-grid">
+        <div class="reveal">
+          <div class="avatar-card">
+              <img src="assets/images/Irai.jpg"
+                  alt="Iraiyanbu Suresh"
+                  class="profile-image">
+          </div>
+        </div>
+
+        <div class="reveal">
+          <p class="about-lede">Aspiring Java Developer with a solid foundation in software development and object-oriented design, focused on building efficient, scalable applications. I enjoy translating real-world problems into clean, well-structured code and I'm continuously sharpening my skills in backend development and databases.</p>
+
+          <div class="info-list">
+            <div class="info-item">
+              <span class="info-icon"><i class="ri-map-pin-line" aria-hidden="true"></i></span>
+              <span>Chennai, Tamil Nadu, India</span>
+            </div>
+            <div class="info-item">
+              <span class="info-icon"><i class="ri-phone-line" aria-hidden="true"></i></span>
+              <a href="tel:+919360871931">+91 93608 71931</a>
+            </div>
+            <div class="info-item">
+              <span class="info-icon"><i class="ri-mail-line" aria-hidden="true"></i></span>
+              <a href="mailto:irailokesh369@gmail.com">irailokesh369@gmail.com</a>
+            </div>
+            <div class="info-item">
+              <span class="info-icon"><i class="ri-graduation-cap-line" aria-hidden="true"></i></span>
+              <span>B.Tech IT &middot; Panimalar Engineering College</span>
+            </div>
+          </div>
+
+          <div class="chip-row">
+            <span class="chip"><i class="ri-code-s-slash-line" aria-hidden="true"></i> Java Developer</span>
+            <span class="chip">SQL</span>
+            <span class="chip">OOP</span>
+            <span class="chip">Backend Development</span>
+            <span class="chip">Problem Solving</span>
+            <span class="chip">Clean Code</span>
+            <span class="chip">Continuous Learning</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================= SKILLS ============================= -->
+  <section id="skills" aria-labelledby="skills-heading">
+    <div class="container section-inner">
+      <div class="section-head reveal">
+        <p class="eyebrow">// skills</p>
+        <h2 id="skills-heading">Technical &amp; Core Skills</h2>
+        <p>A categorized snapshot of the languages, concepts and tools I work with.</p>
+      </div>
+
+      <div class="skills-tabs reveal" role="tablist" aria-label="Skill categories">
+        <button class="tab-btn active" role="tab" aria-selected="true" aria-controls="panel-languages" id="tab-languages" data-panel="panel-languages">Languages</button>
+        <button class="tab-btn" role="tab" aria-selected="false" aria-controls="panel-concepts" id="tab-concepts" data-panel="panel-concepts">Core Concepts</button>
+        <button class="tab-btn" role="tab" aria-selected="false" aria-controls="panel-database" id="tab-database" data-panel="panel-database">Database</button>
+        <button class="tab-btn" role="tab" aria-selected="false" aria-controls="panel-tools" id="tab-tools" data-panel="panel-tools">Tools</button>
+      </div>
+
+      <div class="skills-panels reveal">
+        <div class="skill-panel active" id="panel-languages" role="tabpanel" aria-labelledby="tab-languages">
+          <div class="skill-grid">
+            <div class="skill-card"><span class="skill-icon"><i class="ri-code-s-slash-line" aria-hidden="true"></i></span><h4>Java</h4></div>
+            <div class="skill-card"><span class="skill-icon"><i class="ri-database-2-line" aria-hidden="true"></i></span><h4>SQL</h4></div>
+            <div class="skill-card"><span class="skill-icon"><i class="ri-html5-line" aria-hidden="true"></i></span><h4>HTML</h4></div>
+            <div class="skill-card"><span class="skill-icon"><i class="ri-css3-line" aria-hidden="true"></i></span><h4>CSS</h4></div>
+            <div class="skill-card"><span class="skill-icon"><i class="ri-javascript-line" aria-hidden="true"></i></span><h4>JavaScript</h4></div>
+          </div>
+        </div>
+        <div class="skill-panel" id="panel-concepts" role="tabpanel" aria-labelledby="tab-concepts" hidden>
+          <div class="skill-grid">
+            <div class="skill-card"><span class="skill-icon"><i class="ri-shapes-line" aria-hidden="true"></i></span><h4>OOP</h4></div>
+            <div class="skill-card"><span class="skill-icon"><i class="ri-stack-line" aria-hidden="true"></i></span><h4>Collections</h4></div>
+            <div class="skill-card"><span class="skill-icon"><i class="ri-error-warning-line" aria-hidden="true"></i></span><h4>Exception Handling</h4></div>
+            <div class="skill-card"><span class="skill-icon"><i class="ri-node-tree" aria-hidden="true"></i></span><h4>Data Structures &amp; Algorithms</h4></div>
+          </div>
+        </div>
+        <div class="skill-panel" id="panel-database" role="tabpanel" aria-labelledby="tab-database" hidden>
+          <div class="skill-grid">
+            <div class="skill-card"><span class="skill-icon"><i class="ri-database-2-line" aria-hidden="true"></i></span><h4>MySQL</h4></div>
+            <div class="skill-card"><span class="skill-icon"><i class="ri-server-line" aria-hidden="true"></i></span><h4>DBMS</h4></div>
+          </div>
+        </div>
+        <div class="skill-panel" id="panel-tools" role="tabpanel" aria-labelledby="tab-tools" hidden>
+          <div class="skill-grid">
+            <div class="skill-card"><span class="skill-icon"><i class="ri-git-branch-line" aria-hidden="true"></i></span><h4>Git</h4></div>
+            <div class="skill-card"><span class="skill-icon"><i class="ri-github-fill" aria-hidden="true"></i></span><h4>GitHub</h4></div>
+            <div class="skill-card"><span class="skill-icon"><i class="ri-code-box-line" aria-hidden="true"></i></span><h4>VS Code</h4></div>
+            <div class="skill-card"><span class="skill-icon"><i class="ri-terminal-window-line" aria-hidden="true"></i></span><h4>Eclipse</h4></div>
+            <div class="skill-card"><span class="skill-icon"><i class="ri-file-excel-2-line" aria-hidden="true"></i></span><h4>Excel</h4></div>
+            <div class="skill-card"><span class="skill-icon"><i class="ri-bar-chart-2-line" aria-hidden="true"></i></span><h4>Power BI</h4></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="section-head reveal" style="margin-top: 3.5rem; margin-bottom: 1.75rem;">
+        <p class="eyebrow">// soft skills</p>
+        <h2 style="font-size: clamp(1.3rem, 2.4vw, 1.6rem);">How I work with others</h2>
+      </div>
+      <div class="soft-grid reveal-stagger">
+        <div class="soft-card">
+          <span class="info-icon"><i class="ri-team-line" aria-hidden="true"></i></span>
+          <h4>Communication &amp; Teamwork</h4>
+          <p>Strong communication and teamwork skills developed through collaborative project work.</p>
+        </div>
+        <div class="soft-card">
+          <span class="info-icon"><i class="ri-lightbulb-line" aria-hidden="true"></i></span>
+          <h4>Problem Solving</h4>
+          <p>Quick learner with strong problem-solving instincts and a proactive attitude toward challenges.</p>
+        </div>
+        <div class="soft-card">
+          <span class="info-icon"><i class="ri-time-line" aria-hidden="true"></i></span>
+          <h4>Continuous Learning</h4>
+          <p>Consistently exploring new tools and concepts to stay current with backend development practices.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================= PROJECTS ============================= -->
+  <section id="projects" aria-labelledby="projects-heading">
+    <div class="container section-inner">
+      <div class="section-head reveal">
+        <p class="eyebrow">// projects</p>
+        <h2 id="projects-heading">Selected Projects</h2>
+        <p>A mix of backend, data and full-stack builds &mdash; filter by technology below.</p>
+      </div>
+
+      <div class="filter-row reveal" role="tablist" aria-label="Filter projects by technology">
+        <button class="tab-btn active" data-filter="all">All</button>
+        <button class="tab-btn" data-filter="java">Java</button>
+        <button class="tab-btn" data-filter="javascript">JavaScript</button>
+        <button class="tab-btn" data-filter="ml">Machine Learning</button>
+      </div>
+
+      <div class="projects-grid reveal-stagger" id="projectsGrid">
+
+        <article class="project-card" data-tech="javascript ml">
+          <div class="project-media" style="background: linear-gradient(150deg, rgba(34,211,201,.18), rgba(124,108,240,.18));">
+            <span class="grid-lines" aria-hidden="true"></span>
+            <svg viewBox="0 0 24 24" fill="none" stroke="var(--accent-2)" stroke-width="1.5" aria-hidden="true"><path d="M4 19h16M6 19V9l4-3 4 3 4-3v13" stroke-linecap="round" stroke-linejoin="round"/><circle cx="17" cy="6" r="1.5" fill="var(--accent-2)"/></svg>
+          </div>
+          <div class="project-body">
+            <h3>ForestSense</h3>
+            <p>A web-based environmental monitoring system built with a multi-stage data processing pipeline, featuring Isolation Forest&ndash;based anomaly detection to identify abnormal sensor patterns in real time.</p>
+            <div class="tag-row">
+              <span class="tag">JavaScript</span><span class="tag">HTML</span><span class="tag">CSS</span><span class="tag">Isolation Forest</span><span class="tag">Charts</span>
+            </div>
+            <div class="tag-row">
+              <span class="tag" style="color: var(--text-2); background: transparent; padding: 0;"><i class="ri-radar-line" aria-hidden="true"></i> Real-time monitoring</span>
+            </div>
+            <div class="project-actions">
+              <a class="btn btn-ghost btn-sm" href="https://github.com/irailokesh" target="_blank" rel="noopener noreferrer"><i class="ri-github-fill" aria-hidden="true"></i> GitHub Profile</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="project-card" data-tech="java">
+          <div class="project-media" style="background: linear-gradient(150deg, rgba(124,108,240,.2), rgba(242,184,75,.14));">
+            <span class="grid-lines" aria-hidden="true"></span>
+            <svg viewBox="0 0 24 24" fill="none" stroke="var(--accent)" stroke-width="1.5" aria-hidden="true"><path d="M9 3h6M9 21h6M7 8h10a2 2 0 0 1 2 2v4a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2v-4a2 2 0 0 1 2-2Z" stroke-linecap="round" stroke-linejoin="round"/><path d="M12 11v3M10.5 12.5h3" stroke-linecap="round"/></svg>
+          </div>
+          <div class="project-body">
+            <h3>Hospital Management System</h3>
+            <p>A Java &amp; SQL system architected to manage 500+ patient records across 5+ relational tables, with full CRUD operations and optimized query performance.</p>
+            <div class="tag-row">
+              <span class="tag">Java</span><span class="tag">SQL</span><span class="tag">CRUD</span><span class="tag">Database</span>
+            </div>
+            <div class="project-actions">
+              <a class="btn btn-ghost btn-sm" href="https://github.com/irailokesh/Hospital-Management-System" target="_blank" rel="noopener noreferrer"><i class="ri-github-fill" aria-hidden="true"></i> Source Code</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="project-card" data-tech="javascript">
+          <div class="project-media" style="background: linear-gradient(150deg, rgba(34,211,201,.2), rgba(124,108,240,.14));">
+            <span class="grid-lines" aria-hidden="true"></span>
+            <svg viewBox="0 0 24 24" fill="none" stroke="var(--accent-2)" stroke-width="1.5" aria-hidden="true"><circle cx="11" cy="11" r="6"/><path d="m20 20-3.5-3.5" stroke-linecap="round"/></svg>
+          </div>
+          <div class="project-body">
+            <h3>Multiple Search Engine</h3>
+            <p>Integrated 5+ search engines into a single responsive JavaScript interface, streamlining cross-engine search with one click.</p>
+            <div class="tag-row">
+              <span class="tag">JavaScript</span><span class="tag">HTML</span><span class="tag">CSS</span><span class="tag">Responsive UI</span>
+            </div>
+            <div class="project-actions">
+              <a class="btn btn-ghost btn-sm" href="https://github.com/irailokesh" target="_blank" rel="noopener noreferrer"><i class="ri-github-fill" aria-hidden="true"></i> GitHub Profile</a>
+              <a class="btn btn-primary btn-sm" href="https://searchenginefreedom.vercel.app/" target="_blank" rel="noopener noreferrer"><i class="ri-external-link-line" aria-hidden="true"></i> Live Demo</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="project-card" data-tech="ml">
+          <div class="project-media" style="background: linear-gradient(150deg, rgba(34,201,143,.2), rgba(124,108,240,.14));">
+            <span class="grid-lines" aria-hidden="true"></span>
+            <svg viewBox="0 0 24 24" fill="none" stroke="var(--success)" stroke-width="1.5" aria-hidden="true"><path d="M12 3c-1.8 2-3 4.6-3 7a3 3 0 0 0 6 0c0-2.4-1.2-5-3-7Z"/><path d="M12 13v8M8 21h8" stroke-linecap="round"/></svg>
+          </div>
+          <div class="project-body">
+            <h3>Intelligent Chatbot for Agriculture</h3>
+            <p>An ML-powered chatbot covering 15+ crops and 10+ pest scenarios, delivering data-driven crop, pest and weather recommendations to farmers.</p>
+            <div class="tag-row">
+              <span class="tag">Machine Learning</span><span class="tag">Weather Data</span><span class="tag">Crop Recommendation</span>
+            </div>
+            <div class="project-actions">
+              <a class="btn btn-ghost btn-sm" href="https://github.com/irailokesh" target="_blank" rel="noopener noreferrer"><i class="ri-github-fill" aria-hidden="true"></i> GitHub Profile</a>
+            </div>
+          </div>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================= EXPERIENCE ============================= -->
+  <section id="experience" aria-labelledby="experience-heading">
+    <div class="container section-inner">
+      <div class="section-head reveal">
+        <p class="eyebrow">// experience</p>
+        <h2 id="experience-heading">Work Experience</h2>
+      </div>
+
+      <div class="timeline reveal">
+        <div class="timeline-entry">
+          <span class="timeline-dot"><i class="ri-building-line" aria-hidden="true"></i></span>
+          <div class="timeline-card">
+            <div class="role-row">
+              <h3>Web Developer Intern</h3>
+              <span class="date">May 2025 &ndash; Jul 2025</span>
+            </div>
+            <p class="org">Apex Planet Software Pvt Ltd</p>
+            <ul>
+              <li><i class="ri-checkbox-circle-fill" aria-hidden="true"></i> Developed 5+ responsive web pages using HTML5, CSS3 and JavaScript following mobile-first design principles.</li>
+              <li><i class="ri-checkbox-circle-fill" aria-hidden="true"></i> Implemented client-side form validation, reducing invalid submissions by approximately 35%.</li>
+              <li><i class="ri-checkbox-circle-fill" aria-hidden="true"></i> Improved application reliability and user experience through DOM manipulation and API integration.</li>
+            </ul>
+            <div class="tag-row" style="margin-top: 1rem;">
+              <span class="tag">HTML5</span><span class="tag">CSS3</span><span class="tag">JavaScript</span><span class="tag">API Integration</span><span class="tag">DOM Manipulation</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================= EDUCATION ============================= -->
+  <section id="education" aria-labelledby="education-heading">
+    <div class="container section-inner">
+      <div class="section-head reveal">
+        <p class="eyebrow">// education</p>
+        <h2 id="education-heading">Education</h2>
+      </div>
+
+      <div class="timeline reveal">
+        <div class="timeline-entry">
+          <span class="timeline-dot"><i class="ri-graduation-cap-line" aria-hidden="true"></i></span>
+          <div class="edu-card">
+            <div class="edu-top">
+              <h3>Bachelor of Technology, Information Technology</h3>
+              <span class="date">Oct 2022 &ndash; Apr 2026</span>
+            </div>
+            <p class="edu-school">Panimalar Engineering College</p>
+            <div class="progress-track"><div class="progress-fill" data-progress="88.4"></div></div>
+            <div class="progress-label"><span>CGPA</span><span>8.84 / 10</span></div>
+          </div>
+        </div>
+
+        <div class="timeline-entry">
+          <span class="timeline-dot"><i class="ri-school-line" aria-hidden="true"></i></span>
+          <div class="edu-card">
+            <div class="edu-top">
+              <h3>Higher Secondary</h3>
+              <span class="date">Jun 2021 &ndash; May 2022</span>
+            </div>
+            <p class="edu-school">Anderson Higher Secondary School</p>
+            <div class="progress-track"><div class="progress-fill" data-progress="80"></div></div>
+            <div class="progress-label"><span>Percentage</span><span>80%</span></div>
+          </div>
+        </div>
+
+        <div class="timeline-entry">
+          <span class="timeline-dot"><i class="ri-book-2-line" aria-hidden="true"></i></span>
+          <div class="edu-card">
+            <div class="edu-top">
+              <h3>SSLC</h3>
+              <span class="date">Jun 2019 &ndash; May 2020</span>
+            </div>
+            <p class="edu-school">Anderson Higher Secondary School</p>
+            <div class="progress-track"><div class="progress-fill" data-progress="75.6"></div></div>
+            <div class="progress-label"><span>Percentage</span><span>75.6%</span></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================= CERTIFICATIONS ============================= -->
+  <section id="certifications" aria-labelledby="cert-heading">
+    <div class="container section-inner">
+      <div class="section-head reveal">
+        <p class="eyebrow">// certifications</p>
+        <h2 id="cert-heading">Certifications</h2>
+      </div>
+
+      <div class="cert-grid reveal-stagger">
+        <div class="cert-card">
+          <span class="info-icon"><i class="ri-code-s-slash-line" aria-hidden="true"></i></span>
+          <h4>Java</h4>
+          <p class="issuer">Coursera &middot; 2025</p>
+        </div>
+        <div class="cert-card">
+          <span class="info-icon"><i class="ri-database-2-line" aria-hidden="true"></i></span>
+          <h4>SQL</h4>
+          <p class="issuer">Coursera &middot; 2025</p>
+        </div>
+        <div class="cert-card">
+          <span class="info-icon"><i class="ri-layout-line" aria-hidden="true"></i></span>
+          <h4>Front End Development</h4>
+          <p class="issuer">Coursera &middot; 2024</p>
+          <a class="btn btn-ghost btn-sm" href="https://www.coursera.org/account/accomplishments/verify/54EMWDRQS7AT" target="_blank" rel="noopener noreferrer">Verify Certificate</a>
+        </div>
+        <div class="cert-card">
+          <span class="info-icon"><i class="ri-ai-generate" aria-hidden="true"></i></span>
+          <h4>Generative AI</h4>
+          <p class="issuer">Oracle &middot; 2024</p>
+          <a class="btn btn-ghost btn-sm" href="https://drive.google.com/file/d/1VkM1AMQES643KxXBqoMWJ7gyLAZH8QFy/view" target="_blank" rel="noopener noreferrer">View Certificate</a>
+        </div>
+      </div>
+
+      <!-- GitHub stats -->
+      <!-- <div class="section-head reveal" style="margin-top: 3.5rem;">
+        <p class="eyebrow">// github activity</p>
+        <h2 style="font-size: clamp(1.3rem, 2.4vw, 1.6rem);">Live GitHub Stats</h2>
+      </div>
+      <div class="github-panel reveal">
+        <img src="https://github-readme-stats.vercel.app/api?username=irailokesh&show_icons=true&theme=transparent&hide_border=true&title_color=7c6cf0&icon_color=22d3c9&text_color=a7b0c4" alt="Iraiyanbu Suresh's GitHub stats: repositories, stars and contributions" loading="lazy" width="100%" height="195">
+        <img src="https://github-readme-streak-stats.herokuapp.com/?user=irailokesh&theme=transparent&hide_border=true&background=00000000&ring=7c6cf0&fire=22d3c9&currStreakLabel=22d3c9" alt="Iraiyanbu Suresh's GitHub contribution streak" loading="lazy" width="100%" height="195">
+      </div>
+    </div> -->
+  </section>
+
+  <!-- ============================= CONTACT ============================= -->
+  <section id="contact" aria-labelledby="contact-heading">
+    <div class="container section-inner">
+      <div class="section-head reveal">
+        <p class="eyebrow">// contact</p>
+        <h2 id="contact-heading">Let's Build Something Together</h2>
+        <p>Open to Java Developer and backend engineering roles &mdash; reach out any time.</p>
+      </div>
+
+      <div class="contact-grid reveal">
+        <div class="contact-card">
+          <h3 style="margin-bottom: 1.5rem; font-size: 1.1rem;">Contact Information</h3>
+          <div class="contact-methods">
+            <div class="contact-method">
+              <span class="info-icon"><i class="ri-map-pin-line" aria-hidden="true"></i></span>
+              <div><p class="label">Location</p><p class="value">Chennai, Tamil Nadu, India</p></div>
+            </div>
+            <div class="contact-method">
+              <span class="info-icon"><i class="ri-mail-line" aria-hidden="true"></i></span>
+              <div><p class="label">Email</p><p class="value">irailokesh369@gmail.com</p></div>
+              <button class="copy-btn" id="copyEmail" type="button" aria-label="Copy email address"><i class="ri-file-copy-line" aria-hidden="true"></i></button>
+            </div>
+            <div class="contact-method">
+              <span class="info-icon"><i class="ri-phone-line" aria-hidden="true"></i></span>
+              <div><p class="label">Phone</p><p class="value">+91 93608 71931</p></div>
+            </div>
+          </div>
+
+          <h4 style="font-size: .95rem; margin-bottom: 1rem;">Connect With Me</h4>
+          <div class="hero-socials">
+            <a class="btn-icon" href="https://www.linkedin.com/in/irailokesh369" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn profile"><i class="ri-linkedin-fill" aria-hidden="true"></i></a>
+            <a class="btn-icon" href="https://github.com/irailokesh" target="_blank" rel="noopener noreferrer" aria-label="GitHub profile"><i class="ri-github-fill" aria-hidden="true"></i></a>
+            <a class="btn-icon" href="https://www.hackerrank.com/profile/irailokesh" target="_blank" rel="noopener noreferrer" aria-label="HackerRank profile"><i class="ri-terminal-box-fill" aria-hidden="true"></i></a>
+            <a class="btn-icon" href="https://leetcode.com/u/irailokesh/" target="_blank" rel="noopener noreferrer" aria-label="LeetCode profile"><i class="ri-code-s-slash-fill" aria-hidden="true"></i></a>
+          </div>
+        </div>
+
+        <div class="contact-card">
+          <h3 style="margin-bottom: 1.5rem; font-size: 1.1rem;">Send a Message</h3>
+          <form id="contactForm" action="https://formspree.io/f/mqabdvng" method="POST" novalidate>
+            <div class="form-honeypot" aria-hidden="true">
+              <label for="company">Company</label>
+              <input type="text" id="company" name="company" tabindex="-1" autocomplete="off">
+            </div>
+
+            <div class="form-row" data-field="name">
+              <label for="name">Your Name</label>
+              <input type="text" id="name" name="name" autocomplete="name" required>
+              <p class="field-error">Please enter your name.</p>
+            </div>
+            <div class="form-row" data-field="email">
+              <label for="email">Your Email</label>
+              <input type="email" id="email" name="email" autocomplete="email" required>
+              <p class="field-error">Please enter a valid email address.</p>
+            </div>
+            <div class="form-row" data-field="subject">
+              <label for="subject">Subject</label>
+              <input type="text" id="subject" name="subject" autocomplete="off" required>
+              <p class="field-error">Please add a subject.</p>
+            </div>
+            <div class="form-row" data-field="message">
+              <label for="message">Message</label>
+              <textarea id="message" name="message" rows="4" required></textarea>
+              <p class="field-error">Please write a short message.</p>
+            </div>
+
+            <button type="submit" class="btn btn-primary" style="width: 100%;" id="submitBtn">
+              <i class="ri-send-plane-fill" aria-hidden="true"></i> <span>Send Message</span>
+            </button>
+
+            <div class="form-status" id="formStatus" role="status" aria-live="polite"></div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+
+<!-- ============================= FOOTER ============================= -->
+<footer class="footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <a href="#top" class="logo">IS<span class="dot">.</span>dev</a>
+        <p>Aspiring Java Developer building efficient, scalable applications with clean, well-tested code.</p>
+      </div>
+
+      <div class="footer-links">
+        <div class="footer-col">
+          <h5>NAVIGATE</h5>
+          <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#experience">Experience</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h5>MORE</h5>
+          <ul>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#certifications">Certifications</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li><a href="assets/resume/Iraiyanbu_Suresh_Resume.pdf" download>Resume</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <p>&copy; <span id="year"></span> Iraiyanbu Suresh. All rights reserved.</p>
+      <div class="footer-socials">
+        <a class="btn-icon" href="https://www.linkedin.com/in/irailokesh369" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn"><i class="ri-linkedin-fill" aria-hidden="true"></i></a>
+        <a class="btn-icon" href="https://github.com/irailokesh" target="_blank" rel="noopener noreferrer" aria-label="GitHub"><i class="ri-github-fill" aria-hidden="true"></i></a>
+        <a class="btn-icon" href="https://leetcode.com/u/irailokesh/" target="_blank" rel="noopener noreferrer" aria-label="LeetCode"><i class="ri-code-s-slash-fill" aria-hidden="true"></i></a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<button class="back-to-top" id="backToTop" type="button" aria-label="Back to top">
+  <i class="ri-arrow-up-line" aria-hidden="true"></i>
+</button>
+
+<script src="script.js" defer></script>
+</body>
+</html>
